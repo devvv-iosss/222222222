@@ -32,7 +32,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                         <state key="normal" title="Green"/>
                                         <connections>
-                                            <segue destination="kXs-nN-xKG" kind="show" id="gCh-jw-x9K"/>
+                                            <segue destination="5U8-S3-f9q" kind="show" id="gCh-jw-x9K"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -60,13 +60,19 @@
             </objects>
             <point key="canvasLocation" x="479" y="-137"/>
         </scene>
-        <!--Annna-->
-        <scene sceneID="Ucn-E0-AML">
+        <!--View Controller-->
+        <scene sceneID="UrZ-1q-Kja">
             <objects>
-                <viewControllerPlaceholder storyboardName="Annna" id="kXs-nN-xKG" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="hjW-f2-eH5"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ORA-Rq-UY5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="5U8-S3-f9q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YKd-mh-9ux">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Qci-1V-8mj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hsw-DE-qgm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lvu-OT-DQS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="630" y="319"/>
         </scene>
