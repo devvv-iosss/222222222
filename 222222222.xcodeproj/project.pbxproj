@@ -13,6 +13,8 @@
 		8409526E271731F000327573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409526C271731F000327573 /* Main.storyboard */; };
 		84095270271731F900327573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409526F271731F900327573 /* Assets.xcassets */; };
 		84095273271731F900327573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84095271271731F900327573 /* LaunchScreen.storyboard */; };
+		8409528C2717350700327573 /* Vova.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409528A2717350700327573 /* Vova.storyboard */; };
+		8409528F2717351800327573 /* Ganna.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409528E2717351800327573 /* Ganna.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8409526F271731F900327573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84095272271731F900327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84095274271731F900327573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409528B2717350700327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = 222222222/Base.lproj/Vova.storyboard; sourceTree = "<group>"; };
+		8409528E2717351800327573 /* Ganna.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ganna.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		8409525A271731F000327573 = {
 			isa = PBXGroup;
 			children = (
+				8409528E2717351800327573 /* Ganna.storyboard */,
+				8409528A2717350700327573 /* Vova.storyboard */,
 				84095265271731F000327573 /* 222222222 */,
 				84095264271731F000327573 /* Products */,
 			);
@@ -126,7 +132,9 @@
 			files = (
 				84095273271731F900327573 /* LaunchScreen.storyboard in Resources */,
 				84095270271731F900327573 /* Assets.xcassets in Resources */,
+				8409528C2717350700327573 /* Vova.storyboard in Resources */,
 				8409526E271731F000327573 /* Main.storyboard in Resources */,
+				8409528F2717351800327573 /* Ganna.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +168,14 @@
 				84095272271731F900327573 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8409528A2717350700327573 /* Vova.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8409528B2717350700327573 /* Base */,
+			);
+			name = Vova.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

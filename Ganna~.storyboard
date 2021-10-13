@@ -32,7 +32,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                         <state key="normal" title="Green"/>
                                         <connections>
-                                            <segue destination="jx1-b1-bP1" kind="show" id="TwB-1s-W1L"/>
+                                            <segue destination="X81-bh-1ul" kind="show" id="TwB-1s-W1L"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -50,6 +50,22 @@
             </objects>
             <point key="canvasLocation" x="-184.05797101449278" y="76.339285714285708"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Gkz-nG-IIv">
+            <objects>
+                <viewController id="X81-bh-1ul" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Log-Zb-i7E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aS5-fl-AQQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J1O-Dl-WWM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Er2-Zy-63D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="780" y="488"/>
+        </scene>
         <!--Vova-->
         <scene sceneID="OEn-Vw-CCs">
             <objects>
@@ -58,17 +74,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GOx-XJ-2cy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="479" y="-137"/>
-        </scene>
-        <!--Ganna-->
-        <scene sceneID="jOG-gD-e4e">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Ganna" id="jx1-b1-bP1" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Zgi-q2-k8s"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="knN-bK-CA8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="479" y="264"/>
+            <point key="canvasLocation" x="699" y="-411"/>
         </scene>
     </scenes>
     <resources>
